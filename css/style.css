@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@300;600&display=swap");
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Sarabun", sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #ebe5e5; }
+
+.container {
+  min-width: 100%;
+  height: 100vh;
+  background-image: url(/assets/svg/wave.svg);
+  background-repeat: no-repeat;
+  flex: 1 0 auto; }
+
+.nav-menu {
+  display: flex;
+  justify-content: flex-end;
+  height: 10rem; }
+
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+  margin-right: 2.5rem;
+  justify-content: space-between; }
+
+.nav-menu__item {
+  margin: .8rem 2rem 0; }
+
+.main-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+  justify-items: center;
+  margin-top: 5rem; }
+
+.footer {
+  flex-shrink: 0;
+  height: 5rem;
+  background: rgba(148, 0, 0, 0.941); }
+
+.btn__link {
+  font-weight: 600;
+  color: #f2f2f2;
+  transition: text-decoration 5s ease-out 1s;
+  text-decoration: none; }
+  .btn__link:hover {
+    text-decoration: underline; }
+
+.card {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: content-box;
+  height: 24rem;
+  width: 55%;
+  border-radius: .5rem; }
+
+.card__background {
+  background: rgba(227, 222, 222, 0.144); }
+
+.card__shadow {
+  -webkit-box-shadow: 2px 10px 15px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 10px 15px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 10px 15px -4px rgba(0, 0, 0, 0.75); }
+
+.illustration-container, img {
+  width: 25rem; }
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 1rem;
+  width: 100%; }
+
+.input-group__label {
+  text-align: center;
+  margin-bottom: 1rem; }
+
+.input-group__input {
+  height: 2.5rem;
+  border-radius: .75rem;
+  border: 1px solid #d8cece;
+  box-sizing: content-box;
+  text-align: center;
+  transition: all .5s;
+  background: #f3ebe7;
+  color: black; }
+
+.input-group__input:focus {
+  border: 1px solid #da4444;
+  outline: none; }
+
+.input-group__action {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 2.6rem;
+  font-weight: 300;
+  background-color: rgba(148, 0, 0, 0.871);
+  border-radius: .75rem; }
+
+.icon__login {
+  font-size: 60px; }

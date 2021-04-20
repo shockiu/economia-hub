@@ -1,0 +1,15 @@
+.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    height: 10rem;
+}
+.nav-menu__list {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2.5rem;
+    justify-content: space-between;
+}
+
+.nav-menu__item {
+    margin: .8rem 2rem 0;
+}

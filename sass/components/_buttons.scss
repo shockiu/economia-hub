@@ -1,0 +1,10 @@
+.btn__link {
+    font-weight: $font-weigth-600;
+    color: $letter-color;
+    transition: text-decoration 5s ease-out 1s;
+    text-decoration: none;
+    
+    &:hover {
+        text-decoration: underline;
+    }
+}
